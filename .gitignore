@@ -1,42 +1,12 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pdb
+*.pyc
 
-# Virtual environment
-.venv/
+# Environnements virtuels
 venv/
-ENV/
-env/
 
-# OS files
+# Dossiers de sortie
+output/
+
+# Fichiers système
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE / Editor
-.vscode/
-.idea/
-*.code-workspace
-
-# Flask / Instance
-instance/
-*.sqlite3
-
-# Logs
-*.log
-
-# Environment variables
-.env
-*.env
-
-# Uploads & generated data
-uploads/
-corpora/
-
-# Cache & temp
-*.tmp
-*.bak
-*.swp
